@@ -1,0 +1,91 @@
+.card{
+display: flex;
+padding-left: 10rem;
+padding-top: 3.4rem;
+
+}
+
+.CardImage{
+    width: 10rem;
+    height: 14rem; 
+   
+    
+}
+
+.CardData{
+    
+   
+    padding: 10px;
+  
+   
+}
+.Card-h6{
+    font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 12px;
+        letter-spacing: 0.17em;
+        display: flex;
+
+}
+
+.Card-p{
+    font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 14px;
+        /* identical to box height */
+    
+        text-decoration-line: underline;
+        display: flex;
+       
+        color: #918E9B;
+        padding-top: 12px;
+}
+.Card-h2{
+    font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 27px;
+        line-height: 32px;
+    padding-top: 9px;
+        color: #2B283A;
+}
+.CardData-h6{
+    font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 12px;
+    
+        color: #2B283A;
+        padding-top: 22px;
+}
+.Card-p1{
+    font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 150%;
+        /* or 15px */
+    padding-top: 1.9rem;
+    
+        color: #2B283A;
+        width: 38%;
+      height: 10rem;
+      overflow: hidden;
+}
+/* .Card-p1::after {
+    content: "\a";
+    white-space: pre;
+} */
+
+@media only screen and (max-width: 600px) {
+    
+.Card-p1{
+    width: 100%;
+    overflow: hidden;
+}
+}
